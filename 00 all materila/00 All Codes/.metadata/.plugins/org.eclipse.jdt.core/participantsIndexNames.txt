@@ -1,0 +1,9 @@
+INDEX VERSION 1.131
+C:\java full stack\0 coding workspace\2. Spring\udemy\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3490526498.index
+\springmvc\src\main\java
+C:\java full stack\0 coding workspace\2. Spring\udemy\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1446278970.index
+\springmvc\src\main\java
+C:\java full stack\0 coding workspace\2. Spring\udemy\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3141368360.index
+\springmvcorm\src\main\java
+C:\java full stack\0 coding workspace\2. Spring\udemy\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3401220048.index
+\springmvcorm\src\main\java

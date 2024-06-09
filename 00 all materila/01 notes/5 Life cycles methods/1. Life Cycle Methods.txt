@@ -1,0 +1,199 @@
+Spring provides two life cycle methods to every bean it creates. They are the init method and the destroy method.
+public void init()
+public void destroy()
+
+note : The names need not be the same but the signature should be exactly the same it should be public void and no parameters.
+
+
+-----  init()  -----
+Any initialization code such as loading some configuration file from the file system or connecting to 
+the database or connecting to a web service or a server can go into the  init method. We put that code inside the init method 
+
+-----   destroy()   -----
+And all the cleanup code that is closing the connections or cleaning up all the objects should go into the destroy method.
+
+
+
+The lifecycle looks as follows given a spring bean and xml configuration to the spring container 
+
+1.
+The spring container will first instantiate an object of the bean.
+It will then set all the values onto that object.
+
+2.
+Then it will invoke the init method whatever code we put into the init method will be executed at that point.
+After the data is set into the object, then we read the bean make use of that bean in our application 
+
+3.
+And once we are done and before the container is destroyed or object is destroyed 
+the destroy method  will be invoked before the destruction of the object 
+the destroy method will be invoked and we put all the cleanup code inside the destroy method and then spring will destroy that object.
+
+
+
+if we are aware of servlets  then you know the init and destroy method in servlet,
+these are very similar but what you need to remember is that the init method is called after the object
+is instantiated and all the properties are set on to the object that is all the dependencies are injected.
+
+
+After that the init method is invoked and just before the object is destroyed the destroy method is invoked.
+
+
+
+You can configure the lifecycle methods in three ways using 
+1. xml configuration 
+2. using implementing some String Interfaces. Our Bean classes will implement these interfaces and override some methods 
+3. And finally a simple way by using annotations.
+
+You are going to explore all these three handson in the next few lectures.
+
+
+
+
+	method 1 ==>  xml configuration
+---------------------
+Life cycle using XML Configuration
+
+1. Create the patient Bean
+2. Create the configuration
+3. create the Test class
+
+
+note : <bean class="com.bharath.spring.springcore.lc.xmlconfig.Patient" name="patient" p:id="123" init-method="hi" destroy-method="bye"/>	
+
+note : as soon as the object is created and once the setter method is invoked or called then init method is invoked after that creates the rest of the   
+       objects
+
+1. spring crate the object
+2. call the setter method
+3. then invoke the init method
+4. and then create the rest of the object
+
+destroy() method is not called yet for this we have to enable something in spring that is we need to enable a hook in spring to destroy method to be invoke
+
+Spring containers before it's shutsdown() we need to tell it that it needs to invoke the the destroy methods so for this we need to configure or register a 
+pre-destruction hook   or pre-shutdown hook.
+but the Application class does not have the regrestration methods to configure the pre-shutdown hook, we need to do it on the abstract application context
+
+
+
+note : We use AbstractApplicationContext instead of simple ApplicationContext
+	
+
+		AbstractApplicationContext context = new ClassPathXmlApplicationContext(
+													"com/bharath/spring/springcore/lc/xmlconfig/config.xml");
+		Patient patient = (Patient) context.getBean("patient");
+		System.out.println(patient);
+		context.registerShutdownHook();  
+
+
+
+
+
+	Method 2 ==>  Spring Interfaces
+-------------------------------------------
+How to configure the spring life cycles method using spring Interfaces
+
+1.
+public class Patient implements InitializingBean,DisposableBean{
+
+	@Override
+	public void afterPropertiesSet() throws Exception {
+		// TODO Auto-generated method stub
+		System.out.println("Inside after propertySet()");
+		
+	}
+
+	@Override
+	public void destroy() throws Exception {
+		// TODO Auto-generated method stub
+		System.out.println("Inside destroy()");
+		
+	}
+}
+
+2.
+<bean class="com.bharath.spring.springcore.lc.interfaces.Patient" name="patient" p:id="123" />	
+
+
+
+
+
+
+
+	Method 2 ==> life cycle methods using annotations
+----------------------------------------------------------------
+
+
+	imp note :
+--------------- 
+@PostConstruct
+@preDestroy
+until java 9 this annotation is used to be a part of regular JDK but now they move to separate package  so now they no longer come with JDK
+So you'll have to add an additional maven dependency to your project if you are using java 9 or higher version   
+
+1. search : javax.annotation-api maven dependency
+2. click on first link and click on the latest version
+3. click on text area and copy it 
+
+		<!-- https://mvnrepository.com/artifact/javax.annotation/javax.annotation-api -->
+		<dependency>
+    			<groupId>javax.annotation</groupId>
+    			<artifactId>javax.annotation-api</artifactId>
+    			<version>1.3.2</version>
+		</dependency>
+
+4. paste it to your pom.xml
+
+-----------------
+
+
+import javax.annotation.PostConstruct;
+import javax.annotation.PreDestroy;
+
+public class Patient {
+
+--
+--
+--
+
+	@PostConstruct
+	public void hi() {
+		System.out.println("Inside Hi Method");
+	}
+
+	@PreDestroy
+	public void bye() {
+		System.out.println("Inside Bye Method");
+	}
+
+}
+
+
+note : 
+
+1. support only for this two annotations
+	bidefault support for annotation is not support so we have to enable it so once you create the instance for it, 
+	Spring will autometically enable the support for lifecycle annotation ( @PostConstruct and @PreDestroy ).
+	
+	<bean class="import org.springframework.context.annotation.CommonAnnotationBeanPostProcessor"></bean>
+
+2. to support for all the annotations 
+	<context:annotation-config />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

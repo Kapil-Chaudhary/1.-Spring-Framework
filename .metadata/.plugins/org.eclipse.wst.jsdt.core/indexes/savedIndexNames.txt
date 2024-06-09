@@ -1,0 +1,7 @@
+INDEX VERSION 1.4+C:\java full stack\0 coding workspace\2. Spring\udemy\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+175968216.index
+504523351.index
+2953606451.index
+983073469.index
+2806805033.index
+3129629871.index

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="org.springframework.context.support.AbstractApplicationContext"/>
+    <fullyQualifiedTypeName name="org.springframework.beans.factory.InitializingBean"/>
+    <fullyQualifiedTypeName name="org.springframework.beans.factory.DisposableBean"/>
+    <fullyQualifiedTypeName name="org.springframework.context.support.ClassPathXmlApplicationContext"/>
+    <fullyQualifiedTypeName name="com.bharath.spring.springcoreadvanced.stereotype.annotations.Instructor"/>
+    <fullyQualifiedTypeName name="org.springframework.context.annotation.Scope"/>
+    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Value"/>
+    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Qualifier"/>
+    <fullyQualifiedTypeName name="com.bharath.spring.springjdbc.employee.dto.EmployeeDao"/>
+    <fullyQualifiedTypeName name="org.springframework.jdbc.core.JdbcTemplate"/>
+    <fullyQualifiedTypeName name="com.bharath.spring.springjdbc.employee.dao.EmployeeDao"/>
+    <fullyQualifiedTypeName name="javax.swing.tree.RowMapper"/>
+    <fullyQualifiedTypeName name="com.bharath.spring.springjdbc.employee.dto.Employee"/>
+    <fullyQualifiedTypeName name="com.bharath.spring.springjdbc.employee.dao.rowmapper.EmployeeRowMapper"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="jakarta.persistence.Entity"/>
+    <fullyQualifiedTypeName name="jakarta.persistence.Table"/>
+    <fullyQualifiedTypeName name="jakarta.persistence.Id"/>
+    <fullyQualifiedTypeName name="jakarta.persistence.Column"/>
+    <fullyQualifiedTypeName name="com.bharath.spring.springorm.entity.Product"/>
+    <fullyQualifiedTypeName name="org.springframework.transaction.annotation.Transactional"/>
+    <fullyQualifiedTypeName name="com.bharath.spring.springorm.product.dao.ProductDao"/>
+    <fullyQualifiedTypeName name="com.bharath.spring.springorm.product.entity.Product"/>
+    <fullyQualifiedTypeName name="javax.persistence.Entity"/>
+    <fullyQualifiedTypeName name="com.bharath.spring.springmvcc.HelloController"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestMethod"/>
+    <fullyQualifiedTypeName name="com.bharath.spring.springmvcc.dto.User"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.ModelAttribute"/>
+    <fullyQualifiedTypeName name="org.springframework.stereotype.Controller"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestMapping"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestParam"/>
+    <fullyQualifiedTypeName name="org.springframework.web.servlet.ModelAndView"/>
+    <fullyQualifiedTypeName name="org.springframework.context.annotation.Configuration"/>
+    <fullyQualifiedTypeName name="org.springframework.boot.autoconfigure.EnableAutoConfiguration"/>
+    <fullyQualifiedTypeName name="com.bhatath.spring.boot.springboot.dao.Dao"/>
+    <fullyQualifiedTypeName name="org.springframework.stereotype.Component"/>
+    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
+    <fullyQualifiedTypeName name="org.springframework.context.ApplicationContext"/>
+    <fullyQualifiedTypeName name="com.bhatath.spring.boot.springboot.service.Service"/>
+</qualifiedTypeNameHistroy>

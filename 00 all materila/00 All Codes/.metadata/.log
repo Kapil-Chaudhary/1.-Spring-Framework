@@ -1,0 +1,941 @@
+!SESSION 2022-06-21 15:39:59.487 -----------------------------------------------
+eclipse.buildId=4.23.0.I20220308-0310
+java.version=11.0.13
+java.vendor=Amazon.com Inc.
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.jface 2 0 2022-06-21 15:40:33.791
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-06-21 15:40:33.792
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@650d5a3d,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5e9a9683,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-06-21 15:40:33.792
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7040d71,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
+		Rename the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2553fbd0,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.ui.navigator 2 0 2022-06-21 15:40:42.035
+!MESSAGE Can't find Navigator Content Descriptor with id: org.eclipse.jst.servlet.ui.EnhancedJavaRendering
+
+!ENTRY org.eclipse.ui.navigator 2 0 2022-06-21 15:40:42.042
+!MESSAGE Can't find Navigator Content Descriptor with id: org.eclipse.jst.servlet.ui.EnhancedJavaRendering
+
+!ENTRY org.eclipse.egit.ui 2 0 2022-06-21 15:40:42.150
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\kapil'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-06-21 16:03:18.738
+!MESSAGE Using unsafe http transport to retrieve http://download.jboss.org/jbosstools/static/photon/stable/updates/core/4.23.0.Final/content.xml.xz, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-06-21 16:03:21.596
+!MESSAGE Using unsafe http transport to retrieve http://download.jboss.org/jbosstools/static/photon/stable/updates/central/4.23.0.Final/content.xml.xz, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-06-21 16:03:22.388
+!MESSAGE Using unsafe http transport to retrieve http://download.jboss.org/jbosstools/targetplatforms/jbtcentraltarget/4.23.0.AM1-SNAPSHOT/REPO/, see CVE-2021-41033. Consider using https instead.
+!SESSION 2022-06-21 18:17:45.514 -----------------------------------------------
+eclipse.buildId=4.23.0.I20220308-0310
+java.version=11.0.13
+java.vendor=Amazon.com Inc.
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.jface 2 0 2022-06-21 18:18:20.674
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-06-21 18:18:20.674
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@4d87e7f3,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@14c7ab73,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-06-21 18:18:20.674
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@4fcb796f,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
+		Rename the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1483c738,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.ui.navigator 2 0 2022-06-21 18:18:26.387
+!MESSAGE Can't find Navigator Content Descriptor with id: org.eclipse.jst.servlet.ui.EnhancedJavaRendering
+
+!ENTRY org.eclipse.ui.navigator 2 0 2022-06-21 18:18:26.396
+!MESSAGE Can't find Navigator Content Descriptor with id: org.eclipse.jst.servlet.ui.EnhancedJavaRendering
+
+!ENTRY org.eclipse.egit.ui 2 0 2022-06-21 18:18:26.430
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\kapil'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2022-06-21 18:18:26.547
+!MESSAGE Removing PartDescriptorImpl with the "ee.ut.cs.eclexsys.ui.ExerciseView" id and the "Tekstac" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 4 0 2022-06-21 18:20:42.005
+!MESSAGE /org/eclipse/persistence/jaxb/eclipselink_oxm_2_5.xsd
+!STACK 0
+java.io.FileNotFoundException: /org/eclipse/persistence/jaxb/eclipselink_oxm_2_5.xsd
+	at org.eclipse.osgi.storage.url.bundleentry.Handler.findBundleEntry(Handler.java:55)
+	at org.eclipse.osgi.storage.url.BundleResourceHandler.openConnection(BundleResourceHandler.java:182)
+	at java.base/java.net.URL.openConnection(URL.java:1099)
+	at org.eclipse.core.internal.boot.PlatformURLConnection.connect(PlatformURLConnection.java:115)
+	at org.eclipse.core.internal.boot.PlatformURLConnection.getURLAsLocal(PlatformURLConnection.java:240)
+	at org.eclipse.core.internal.runtime.PlatformURLConverter.toFileURL(PlatformURLConverter.java:37)
+	at org.eclipse.core.runtime.FileLocator.toFileURL(FileLocator.java:263)
+	at org.eclipse.wildwebdeveloper.xml.internal.ui.preferences.XMLCatalogs.createURI(XMLCatalogs.java:139)
+	at org.eclipse.wildwebdeveloper.xml.internal.ui.preferences.XMLCatalogs.lambda$3(XMLCatalogs.java:87)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183)
+	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:948)
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:658)
+	at java.base/java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:274)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:177)
+	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:948)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:497)
+	at org.eclipse.wildwebdeveloper.xml.internal.ui.preferences.XMLCatalogs.getWTPExtensionCatalog(XMLCatalogs.java:65)
+	at org.eclipse.wildwebdeveloper.xml.internal.ui.preferences.XMLCatalogs.getAllCatalogs(XMLCatalogs.java:52)
+	at org.eclipse.wildwebdeveloper.xml.internal.ui.preferences.XMLPreferenceConstants.storePreferencesToLemminxOptions(XMLPreferenceConstants.java:90)
+	at org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer.mergeCustomInitializationOptions(XMLLanguageServer.java:163)
+	at org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer.getInitializationOptions(XMLLanguageServer.java:158)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$8(LanguageServerWrapper.java:353)
+	at java.base/java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1072)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1705)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1692)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1020)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1656)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1594)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-06-21 18:21:01.971
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-06-21 18:21:01.981
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 4 0 2022-06-21 18:21:43.317
+!MESSAGE /org/eclipse/persistence/jaxb/eclipselink_oxm_2_5.xsd
+!STACK 0
+java.io.FileNotFoundException: /org/eclipse/persistence/jaxb/eclipselink_oxm_2_5.xsd
+	at org.eclipse.osgi.storage.url.bundleentry.Handler.findBundleEntry(Handler.java:55)
+	at org.eclipse.osgi.storage.url.BundleResourceHandler.openConnection(BundleResourceHandler.java:182)
+	at java.base/java.net.URL.openConnection(URL.java:1099)
+	at org.eclipse.core.internal.boot.PlatformURLConnection.connect(PlatformURLConnection.java:115)
+	at org.eclipse.core.internal.boot.PlatformURLConnection.getURLAsLocal(PlatformURLConnection.java:240)
+	at org.eclipse.core.internal.runtime.PlatformURLConverter.toFileURL(PlatformURLConverter.java:37)
+	at org.eclipse.core.runtime.FileLocator.toFileURL(FileLocator.java:263)
+	at org.eclipse.wildwebdeveloper.xml.internal.ui.preferences.XMLCatalogs.createURI(XMLCatalogs.java:139)
+	at org.eclipse.wildwebdeveloper.xml.internal.ui.preferences.XMLCatalogs.lambda$3(XMLCatalogs.java:87)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183)
+	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:948)
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:658)
+	at java.base/java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:274)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:177)
+	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:948)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:497)
+	at org.eclipse.wildwebdeveloper.xml.internal.ui.preferences.XMLCatalogs.getWTPExtensionCatalog(XMLCatalogs.java:65)
+	at org.eclipse.wildwebdeveloper.xml.internal.ui.preferences.XMLCatalogs.getAllCatalogs(XMLCatalogs.java:52)
+	at org.eclipse.wildwebdeveloper.xml.internal.ui.preferences.XMLPreferenceConstants.storePreferencesToLemminxOptions(XMLPreferenceConstants.java:90)
+	at org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer.mergeCustomInitializationOptions(XMLLanguageServer.java:163)
+	at org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer.getInitializationOptions(XMLLanguageServer.java:158)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$8(LanguageServerWrapper.java:353)
+	at java.base/java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1072)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1705)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1692)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1020)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1656)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1594)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-06-21 18:21:43.808
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-06-21 18:21:43.820
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-06-21 18:21:43.864
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-06-21 18:21:43.867
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-06-21 18:21:51.105
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-06-21 18:21:51.112
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-06-21 18:21:52.061
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-06-21 18:21:52.099
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-06-21 18:21:53.783
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-06-21 18:21:53.788
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-06-21 18:21:54.708
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-06-21 18:21:54.731
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-06-21 18:21:55.811
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-06-21 18:21:55.818
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-06-21 18:21:56.211
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-06-21 18:21:56.219
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-06-21 18:22:02.011
+!MESSAGE Could not download sources for antlr:antlr:2.7.7
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact antlr:antlr:jar:sources:2.7.7
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:828)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:117)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:796)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:773)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:311)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:285)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:255)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:223)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:152)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:156)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1416)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:152)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Missing antlr:antlr:jar:sources:2.7.7
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2022-06-21 18:22:02.012
+!MESSAGE Could not resolve artifact antlr:antlr:jar:sources:2.7.7
+!SUBENTRY 2 org.eclipse.m2e.core 4 -1 2022-06-21 18:22:02.012
+!MESSAGE Missing antlr:antlr:jar:sources:2.7.7
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-06-21 18:22:21.805
+!MESSAGE Could not download sources for mysql:mysql-connector-java:5.1.6
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact mysql:mysql-connector-java:jar:sources:5.1.6
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:828)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:117)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:796)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:773)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:311)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:285)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:255)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:223)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:152)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:156)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1416)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:152)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Missing mysql:mysql-connector-java:jar:sources:5.1.6
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2022-06-21 18:22:21.806
+!MESSAGE Could not resolve artifact mysql:mysql-connector-java:jar:sources:5.1.6
+!SUBENTRY 2 org.eclipse.m2e.core 4 -1 2022-06-21 18:22:21.806
+!MESSAGE Missing mysql:mysql-connector-java:jar:sources:5.1.6
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-06-21 18:22:28.493
+!MESSAGE Could not download javadoc for antlr:antlr:2.7.7
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact antlr:antlr:jar:javadoc:2.7.7
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:828)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:117)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:796)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:773)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:311)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:297)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:255)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:223)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:152)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:156)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1416)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:152)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Missing antlr:antlr:jar:javadoc:2.7.7
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2022-06-21 18:22:28.493
+!MESSAGE Could not resolve artifact antlr:antlr:jar:javadoc:2.7.7
+!SUBENTRY 2 org.eclipse.m2e.core 4 -1 2022-06-21 18:22:28.493
+!MESSAGE Missing antlr:antlr:jar:javadoc:2.7.7
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-06-21 18:22:29.547
+!MESSAGE Could not download javadoc for mysql:mysql-connector-java:5.1.6
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact mysql:mysql-connector-java:jar:javadoc:5.1.6
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:828)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:117)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:796)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:773)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:311)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:297)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:255)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:223)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:152)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:156)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1416)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:152)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Missing mysql:mysql-connector-java:jar:javadoc:5.1.6
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2022-06-21 18:22:29.548
+!MESSAGE Could not resolve artifact mysql:mysql-connector-java:jar:javadoc:5.1.6
+!SUBENTRY 2 org.eclipse.m2e.core 4 -1 2022-06-21 18:22:29.548
+!MESSAGE Missing mysql:mysql-connector-java:jar:javadoc:5.1.6
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-06-21 18:22:30.738
+!MESSAGE Could not download sources for jstl:jstl:1.2
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact jstl:jstl:jar:sources:1.2
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:828)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:117)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:796)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:773)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:311)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:285)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:255)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:223)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:152)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:156)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1416)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:152)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Missing jstl:jstl:jar:sources:1.2
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2022-06-21 18:22:30.739
+!MESSAGE Could not resolve artifact jstl:jstl:jar:sources:1.2
+!SUBENTRY 2 org.eclipse.m2e.core 4 -1 2022-06-21 18:22:30.739
+!MESSAGE Missing jstl:jstl:jar:sources:1.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-06-21 18:22:33.422
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-06-21 18:22:33.428
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-06-21 18:22:33.521
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-06-21 18:22:33.542
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-06-21 18:22:33.578
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-06-21 18:22:33.582
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-06-21 18:22:33.609
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-06-21 18:22:33.613
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+!SESSION 2022-06-21 18:26:27.897 -----------------------------------------------
+eclipse.buildId=4.23.0.I20220308-0310
+java.version=11.0.13
+java.vendor=Amazon.com Inc.
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.jface 2 0 2022-06-21 18:30:30.238
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-06-21 18:30:30.238
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@69542112,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@35a81281,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-06-21 18:30:30.238
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@58829c2c,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
+		Rename the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@64f1b2fb,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.ui.navigator 2 0 2022-06-21 18:30:36.143
+!MESSAGE Can't find Navigator Content Descriptor with id: org.eclipse.jst.servlet.ui.EnhancedJavaRendering
+
+!ENTRY org.eclipse.ui.navigator 2 0 2022-06-21 18:30:36.145
+!MESSAGE Can't find Navigator Content Descriptor with id: org.eclipse.jst.servlet.ui.EnhancedJavaRendering
+
+!ENTRY org.eclipse.egit.ui 2 0 2022-06-21 18:30:36.227
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\kapil'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-06-21 18:31:50.308
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-06-21 18:31:50.315
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 4 0 2022-06-21 18:34:01.803
+!MESSAGE /org/eclipse/persistence/jaxb/eclipselink_oxm_2_5.xsd
+!STACK 0
+java.io.FileNotFoundException: /org/eclipse/persistence/jaxb/eclipselink_oxm_2_5.xsd
+	at org.eclipse.osgi.storage.url.bundleentry.Handler.findBundleEntry(Handler.java:55)
+	at org.eclipse.osgi.storage.url.BundleResourceHandler.openConnection(BundleResourceHandler.java:182)
+	at java.base/java.net.URL.openConnection(URL.java:1099)
+	at org.eclipse.core.internal.boot.PlatformURLConnection.connect(PlatformURLConnection.java:115)
+	at org.eclipse.core.internal.boot.PlatformURLConnection.getURLAsLocal(PlatformURLConnection.java:240)
+	at org.eclipse.core.internal.runtime.PlatformURLConverter.toFileURL(PlatformURLConverter.java:37)
+	at org.eclipse.core.runtime.FileLocator.toFileURL(FileLocator.java:263)
+	at org.eclipse.wildwebdeveloper.xml.internal.ui.preferences.XMLCatalogs.createURI(XMLCatalogs.java:139)
+	at org.eclipse.wildwebdeveloper.xml.internal.ui.preferences.XMLCatalogs.lambda$3(XMLCatalogs.java:87)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183)
+	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:948)
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:658)
+	at java.base/java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:274)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:177)
+	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:948)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:497)
+	at org.eclipse.wildwebdeveloper.xml.internal.ui.preferences.XMLCatalogs.getWTPExtensionCatalog(XMLCatalogs.java:65)
+	at org.eclipse.wildwebdeveloper.xml.internal.ui.preferences.XMLCatalogs.getAllCatalogs(XMLCatalogs.java:52)
+	at org.eclipse.wildwebdeveloper.xml.internal.ui.preferences.XMLPreferenceConstants.storePreferencesToLemminxOptions(XMLPreferenceConstants.java:90)
+	at org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer.mergeCustomInitializationOptions(XMLLanguageServer.java:163)
+	at org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer.getInitializationOptions(XMLLanguageServer.java:158)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$8(LanguageServerWrapper.java:353)
+	at java.base/java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1072)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1705)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1692)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1020)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1656)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1594)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183)
+
+!ENTRY org.eclipse.core.resources 2 10035 2022-06-21 18:34:11.528
+!MESSAGE The workspace will exit with unsaved changes in this session.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-06-21 18:34:11.590
+!MESSAGE Could not download sources for org.springframework:spring-aop:4.3.6.RELEASE
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springframework:spring-aop:jar:sources:4.3.6.RELEASE
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:828)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:117)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:796)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:773)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:311)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:285)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:255)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:223)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:152)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:156)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1416)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:152)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Could not transfer artifact org.springframework:spring-aop:jar:sources:4.3.6.RELEASE from/to central (https://repo.maven.apache.org/maven2): The operation was cancelled.
+org.eclipse.aether.transfer.ArtifactTransferException: Could not transfer artifact org.springframework:spring-aop:jar:sources:4.3.6.RELEASE from/to central (https://repo.maven.apache.org/maven2): The operation was cancelled.
+	at io.takari.aether.connector.AetherRepositoryConnector$2.wrap(AetherRepositoryConnector.java:889)
+	at io.takari.aether.connector.AetherRepositoryConnector$2.wrap(AetherRepositoryConnector.java:1)
+	at io.takari.aether.connector.AetherRepositoryConnector$GetTask.flush(AetherRepositoryConnector.java:659)
+	at io.takari.aether.connector.AetherRepositoryConnector.get(AetherRepositoryConnector.java:337)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.performDownloads(DefaultArtifactResolver.java:514)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve(DefaultArtifactResolver.java:402)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifacts(DefaultArtifactResolver.java:229)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifact(DefaultArtifactResolver.java:207)
+	at org.eclipse.aether.internal.impl.DefaultRepositorySystem.resolveArtifact(DefaultRepositorySystem.java:262)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:805)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:117)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:796)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:773)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:311)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:285)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:255)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:223)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:152)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:156)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1416)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:152)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.eclipse.aether.transfer.TransferCancelledException: The operation was cancelled.
+	at org.eclipse.m2e.core.internal.embedder.ArtifactTransferListenerAdapter.transferProgressed(ArtifactTransferListenerAdapter.java:51)
+	at org.eclipse.aether.internal.impl.SafeTransferListener.transferProgressed(SafeTransferListener.java:106)
+	at io.takari.aether.connector.AetherRepositoryConnector.transferProgressed(AetherRepositoryConnector.java:860)
+	at io.takari.aether.connector.AetherRepositoryConnector$GetTask.resumableGet(AetherRepositoryConnector.java:621)
+	at io.takari.aether.connector.AetherRepositoryConnector$GetTask.run(AetherRepositoryConnector.java:481)
+	at io.takari.aether.connector.AetherRepositoryConnector$DirectExecutor.execute(AetherRepositoryConnector.java:915)
+	at io.takari.aether.connector.AetherRepositoryConnector.get(AetherRepositoryConnector.java:331)
+	... 22 more
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2022-06-21 18:34:11.592
+!MESSAGE Could not resolve artifact org.springframework:spring-aop:jar:sources:4.3.6.RELEASE
+!SUBENTRY 2 org.eclipse.m2e.core 4 -1 2022-06-21 18:34:11.592
+!MESSAGE Could not transfer artifact org.springframework:spring-aop:jar:sources:4.3.6.RELEASE from/to central (https://repo.maven.apache.org/maven2): The operation was cancelled.
+!STACK 0
+org.eclipse.aether.transfer.ArtifactTransferException: Could not transfer artifact org.springframework:spring-aop:jar:sources:4.3.6.RELEASE from/to central (https://repo.maven.apache.org/maven2): The operation was cancelled.
+	at io.takari.aether.connector.AetherRepositoryConnector$2.wrap(AetherRepositoryConnector.java:889)
+	at io.takari.aether.connector.AetherRepositoryConnector$2.wrap(AetherRepositoryConnector.java:1)
+	at io.takari.aether.connector.AetherRepositoryConnector$GetTask.flush(AetherRepositoryConnector.java:659)
+	at io.takari.aether.connector.AetherRepositoryConnector.get(AetherRepositoryConnector.java:337)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.performDownloads(DefaultArtifactResolver.java:514)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve(DefaultArtifactResolver.java:402)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifacts(DefaultArtifactResolver.java:229)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifact(DefaultArtifactResolver.java:207)
+	at org.eclipse.aether.internal.impl.DefaultRepositorySystem.resolveArtifact(DefaultRepositorySystem.java:262)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:805)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:117)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:796)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:773)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:311)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:285)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:255)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:223)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:152)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:156)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1416)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:152)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.eclipse.aether.transfer.TransferCancelledException: The operation was cancelled.
+	at org.eclipse.m2e.core.internal.embedder.ArtifactTransferListenerAdapter.transferProgressed(ArtifactTransferListenerAdapter.java:51)
+	at org.eclipse.aether.internal.impl.SafeTransferListener.transferProgressed(SafeTransferListener.java:106)
+	at io.takari.aether.connector.AetherRepositoryConnector.transferProgressed(AetherRepositoryConnector.java:860)
+	at io.takari.aether.connector.AetherRepositoryConnector$GetTask.resumableGet(AetherRepositoryConnector.java:621)
+	at io.takari.aether.connector.AetherRepositoryConnector$GetTask.run(AetherRepositoryConnector.java:481)
+	at io.takari.aether.connector.AetherRepositoryConnector$DirectExecutor.execute(AetherRepositoryConnector.java:915)
+	at io.takari.aether.connector.AetherRepositoryConnector.get(AetherRepositoryConnector.java:331)
+	... 22 more
+!SESSION 2022-06-21 18:39:29.431 -----------------------------------------------
+eclipse.buildId=4.23.0.I20220308-0310
+java.version=11.0.13
+java.vendor=Amazon.com Inc.
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.core.resources 2 10035 2022-06-21 18:39:34.891
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.jface 2 0 2022-06-21 18:39:38.015
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-06-21 18:39:38.015
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7a90f33d,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7c7b27c,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-06-21 18:39:38.015
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2bd8c8f1,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
+		Rename the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7db63a01,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.ui.navigator 2 0 2022-06-21 18:39:42.071
+!MESSAGE Can't find Navigator Content Descriptor with id: org.eclipse.jst.servlet.ui.EnhancedJavaRendering
+
+!ENTRY org.eclipse.ui.navigator 2 0 2022-06-21 18:39:42.074
+!MESSAGE Can't find Navigator Content Descriptor with id: org.eclipse.jst.servlet.ui.EnhancedJavaRendering
+
+!ENTRY org.eclipse.egit.ui 2 0 2022-06-21 18:39:42.128
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\kapil'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 4 0 2022-06-21 18:40:01.177
+!MESSAGE /org/eclipse/persistence/jaxb/eclipselink_oxm_2_5.xsd
+!STACK 0
+java.io.FileNotFoundException: /org/eclipse/persistence/jaxb/eclipselink_oxm_2_5.xsd
+	at org.eclipse.osgi.storage.url.bundleentry.Handler.findBundleEntry(Handler.java:55)
+	at org.eclipse.osgi.storage.url.BundleResourceHandler.openConnection(BundleResourceHandler.java:182)
+	at java.base/java.net.URL.openConnection(URL.java:1099)
+	at org.eclipse.core.internal.boot.PlatformURLConnection.connect(PlatformURLConnection.java:115)
+	at org.eclipse.core.internal.boot.PlatformURLConnection.getURLAsLocal(PlatformURLConnection.java:240)
+	at org.eclipse.core.internal.runtime.PlatformURLConverter.toFileURL(PlatformURLConverter.java:37)
+	at org.eclipse.core.runtime.FileLocator.toFileURL(FileLocator.java:263)
+	at org.eclipse.wildwebdeveloper.xml.internal.ui.preferences.XMLCatalogs.createURI(XMLCatalogs.java:139)
+	at org.eclipse.wildwebdeveloper.xml.internal.ui.preferences.XMLCatalogs.lambda$3(XMLCatalogs.java:87)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183)
+	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:948)
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:658)
+	at java.base/java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:274)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:177)
+	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:948)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:497)
+	at org.eclipse.wildwebdeveloper.xml.internal.ui.preferences.XMLCatalogs.getWTPExtensionCatalog(XMLCatalogs.java:65)
+	at org.eclipse.wildwebdeveloper.xml.internal.ui.preferences.XMLCatalogs.getAllCatalogs(XMLCatalogs.java:52)
+	at org.eclipse.wildwebdeveloper.xml.internal.ui.preferences.XMLPreferenceConstants.storePreferencesToLemminxOptions(XMLPreferenceConstants.java:90)
+	at org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer.mergeCustomInitializationOptions(XMLLanguageServer.java:163)
+	at org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer.getInitializationOptions(XMLLanguageServer.java:158)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$8(LanguageServerWrapper.java:353)
+	at java.base/java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1072)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1705)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1692)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1020)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1656)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1594)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-06-21 18:40:04.067
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-06-21 18:40:04.076
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-06-21 18:40:05.559
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-06-21 18:40:05.565
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-06-21 18:40:05.956
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-06-21 18:40:05.962
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-06-21 18:40:06.358
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-06-21 18:40:06.363
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-06-21 18:40:06.924
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-06-21 18:40:06.938
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-06-21 18:40:06.957
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-06-21 18:40:08.042
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-06-21 18:40:08.048
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-06-21 18:40:08.062
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-06-21 18:40:08.711
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-06-21 18:40:08.721
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-06-21 18:40:39.659
+!MESSAGE Could not download sources for antlr:antlr:2.7.7
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact antlr:antlr:jar:sources:2.7.7
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:828)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:117)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:796)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:773)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:311)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:285)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:255)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:223)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:152)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:156)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1416)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:152)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Missing antlr:antlr:jar:sources:2.7.7
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2022-06-21 18:40:39.660
+!MESSAGE Could not resolve artifact antlr:antlr:jar:sources:2.7.7
+!SUBENTRY 2 org.eclipse.m2e.core 4 -1 2022-06-21 18:40:39.660
+!MESSAGE Missing antlr:antlr:jar:sources:2.7.7
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-06-21 18:41:00.740
+!MESSAGE Could not download sources for mysql:mysql-connector-java:5.1.6
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact mysql:mysql-connector-java:jar:sources:5.1.6
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:828)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:117)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:796)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:773)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:311)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:285)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:255)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:223)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:152)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:156)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1416)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:152)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Missing mysql:mysql-connector-java:jar:sources:5.1.6
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2022-06-21 18:41:00.741
+!MESSAGE Could not resolve artifact mysql:mysql-connector-java:jar:sources:5.1.6
+!SUBENTRY 2 org.eclipse.m2e.core 4 -1 2022-06-21 18:41:00.741
+!MESSAGE Missing mysql:mysql-connector-java:jar:sources:5.1.6
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-06-21 18:41:00.919
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-06-21 18:41:00.925
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-06-21 18:44:27.827
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-06-21 18:44:27.830
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-06-21 18:44:27.837
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-06-21 18:44:28.938
+!MESSAGE Could not download javadoc for antlr:antlr:2.7.7
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact antlr:antlr:jar:javadoc:2.7.7
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:828)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:117)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:796)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:773)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:311)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:297)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:255)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:223)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:152)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:156)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1416)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:152)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Missing antlr:antlr:jar:javadoc:2.7.7
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2022-06-21 18:44:28.938
+!MESSAGE Could not resolve artifact antlr:antlr:jar:javadoc:2.7.7
+!SUBENTRY 2 org.eclipse.m2e.core 4 -1 2022-06-21 18:44:28.938
+!MESSAGE Missing antlr:antlr:jar:javadoc:2.7.7
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-06-21 18:44:30.638
+!MESSAGE Could not download javadoc for mysql:mysql-connector-java:5.1.6
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact mysql:mysql-connector-java:jar:javadoc:5.1.6
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:828)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:117)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:796)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:773)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:311)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:297)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:255)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:223)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:152)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:156)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1416)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:152)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Missing mysql:mysql-connector-java:jar:javadoc:5.1.6
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2022-06-21 18:44:30.638
+!MESSAGE Could not resolve artifact mysql:mysql-connector-java:jar:javadoc:5.1.6
+!SUBENTRY 2 org.eclipse.m2e.core 4 -1 2022-06-21 18:44:30.638
+!MESSAGE Missing mysql:mysql-connector-java:jar:javadoc:5.1.6
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-06-21 18:44:31.744
+!MESSAGE Could not download sources for jstl:jstl:1.2
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact jstl:jstl:jar:sources:1.2
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:828)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:117)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:796)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:773)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:311)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:285)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:255)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:223)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:152)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:156)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1416)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:152)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Missing jstl:jstl:jar:sources:1.2
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2022-06-21 18:44:31.752
+!MESSAGE Could not resolve artifact jstl:jstl:jar:sources:1.2
+!SUBENTRY 2 org.eclipse.m2e.core 4 -1 2022-06-21 18:44:31.752
+!MESSAGE Missing jstl:jstl:jar:sources:1.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-06-21 18:44:34.321
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-06-21 18:44:34.325
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!

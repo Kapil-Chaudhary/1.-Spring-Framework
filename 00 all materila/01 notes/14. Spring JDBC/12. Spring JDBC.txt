@@ -1,0 +1,156 @@
+So far we have been using the ModelAndView object as a return type to the methods in our Controller.
+
+This ModelAndView design is tightly coupled. That is, in our Controller methods, even though we don't use the model or data
+in some scenarios, we still have to create the ModelAndView object. That is why in later versions of
+Spring they have introduced ModelMap and ViewName as a simple string.
+
+
+So if you don't want to deal with data in a particular Controller method, then we need not create
+the Model And View. 
+
+We simply create the view name as a String, java string object and return it from the method.
+And if we have to deal with the model or data in the Controller method,then we will use the ModelMap
+The ModelMap is like a map with key and value pairs.
+
+The key is a string and the value is an object and it provides a method called addAttribute using which
+we can add data to the ModelMap.
+
+A good scenario where we can consider this whole usecase is if we
+go back to the user registration usecase, open the UserController and in the very first method, here
+show Registration Page, model here.
+
+
+All we are doing is taking the request from the user and sending him a view back.
+Even then we are creating a ModelAndView and returning it. In the next lecture, we'll migrate, we'll
+use the ModelMap and string in these two methods instead of using ModelAndView.
+
+
+note : 
+Setup JDBC Mavan project and update the pom.xml with require depandencies ::->
+
+1. spring-context
+	The required dependencies are spring-core, spring-context to do dependency injection,
+
+2.  spring-jdbc  -->  to do database operations. ( search spring jdbc maven dependency )
+
+3. mysql-connector-jar  -->   which is the JDBC driver to connect and work with mysql    (search spring mysql-connector maven dependency )
+
+
+
+
+steps to use jdbc templates...
+-------------------------
+In the next few lectures he will learn how easy it is to perform database operations using spring JDBC template.
+
+
+He will do it in two simple steps.
+____________________________________________
+
+
+1. The first step is 
+-----------------------------------
+To configure the driver manager data source and The JDBC template. 
+In the spring configuration driver manager data source will be used by JDBC template.
+
+a: 
+So you'll first inject this bean or you will first create this bean or configure in the spring config.xml by setting four properties.
+driverClassName 
+url connect to the database 
+the username to the database and finally the 
+password.
+
+In my case I'm using the my sql driver so it will be 
+driverClassName : com.mysql.jdbc.Driver
+url : jdbc:mysql://localhost/mydb
+userName : root
+password : test
+
+note : MyDB is the name of the database local host windes to my machine.
+
+b :
+Once we configure out the driver manager data source the next been is the JDBC template 
+will configure that been by injecting the data source that recreate in the previous step these two and going to this same spring configuration file as two different beans
+JDBC Template depends on driver manager data source that is step number one.
+
+
+
+
+2. And the second step : 
+----------------------------------------------------
+of course is create the test class and use the JDBC template to perform a insert operation or any other update operation on the database.
+
+
+
+example :
+Configuring the drivermanager data source and JDBC Template
+in config.xml :-->
+
+	<bean
+		class="org.springframework.jdbc.datasource.DriverManagerDataSource"
+		name="dataSource" p:driverClassName="com.mysql.jdbc.Driver"
+		p:url="jdbc:mysql://localhost/mydb" p:username="student"
+		p:password="student" />
+
+	<bean class="org.springframework.jdbc.core.JdbcTemplate" name="jdbcTemplate" p:dataSource-ref="dataSource" />
+
+in test.java -->
+		
+		JdbcTemplate jdbcTemplate = (JdbcTemplate) context.getBean("jdbcTemplate");
+
+		String sql = "insert into employee values(?,?,?)";
+		int result = jdbcTemplate.update(sql, new Integer(1), "bharath", "raddy");
+		System.out.println("Number of records inserted are : " + result);
+
+
+
+
+Example 2 :
+
+		EmployeeDao  --------------->   jdbcTemplate   ------------>   DataSource 
+			^										^
+			|										|
+			|										|
+			|										|
+			|										|	
+			|										|
+
+		EmployeeDaoImpl							   DriverManagerDataSource
+
+
+
+
+
+
+
+
+--------------------------------------------------------------------------------------------
+In this and the next few lectures you will use the JDBC template and execute the Select queries using two methods it provides 
+one query for object which returns a single record and query method which returns multiple records from the database table.
+
+1. queryForObject(String sql, RowMapper<T> rowmapper, Object... args ):<T>
+2. query((String sql, RowMapper<T> rowmapper):List<T>
+
+
+Row mapper is an interface in the Spring Framework which we need to implement it maps JDBC ResultSet that comes back into an object of a class that we create in our application.
+
+		RowMapper<T> (I):
+				ResultSet  ---------------->  Object	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

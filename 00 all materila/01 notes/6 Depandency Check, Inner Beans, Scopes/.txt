@@ -1,0 +1,92 @@
+In this lecture he will mandate the dependency injection and do a dependency check by using the at required annotation from spring.
+
+the usecase that wIll be working on is a patient prescription use case you will create a prescription
+class a spring bean which will have an ID patient name and the list of medicines and will see how
+
+note: 
+
+1. if perticular field is mandatory in bean class to used so for this we use @Required annotation in setter method and also import perticular class
+2. after that enable the use of annotation in xml comfig file by using this
+						<bean class="org.springframework.beans.factory.annotation.RequiredAnnotationBeanPostProcessor" />
+
+
+note: 
+now there are 4 ways to inject an object
+1. using refrence as object
+2. using refrence as attribute
+3. using p schemas
+4. using inner beans 
+
+
+---------
+
+
+		Spring Been Scopes ----
+___________________________________________
+
+In this lecture you will learn about the spring beans scopes.
+
+The scope is availability of the object in the container in simple words,
+it is the number of objects created in the container of a particular bean type.
+
+There are five possible values
+1. Singleton
+2. prototype
+3. request
+4. session
+5. globalsession. 
+
+
+1. Singleton
+Singleton is the default value when we configure a bean in the spring configuration, and we do not provide any scope, by default it is singleton.The spring container if the marked a singleton or if we don't specify anything on the bean will create only one object no matter how many times that bean is read and used in our application.
+
+2. Prototype
+The second scope is the prototype scope. If we mark bean as prototype then the container will create different objects of that type. 
+Every time that object is read and used in our application 
+
+3. request
+request as the name itself says the request scope is only relevant for spring MVC webapplications, when the request comes in from the end user
+or from the browser to our web application which is developed using spring, spring container will create an object per user request next session again.
+
+
+4. Session
+Session is also relevant only for spring MVCweb applications.
+A session is everything that happens between a user login and Logout or everything that happens from the
+time the user first access our website till the time he leaves our website if we mark a bean as session scope scope 
+then the spring container will create only one object for the entire session. If a new user session is created then another object will be instantiated by spring.
+
+5. global session,
+this will create if we mark Bean as Global's session scoped, Spring container will create an objectper global context.
+This is used only in spring. MVC Portlet applications.
+In Portlet applications there can be multiple Portlets across these portlets there will be a global session. 
+global context and Spring container will create only one object for the entire global session
+across these portlets
+
+
+
+
+---------------   Overview   ------------------
+1. Dependency check
+	We use @Required otherwise it thorw BeanInitializationException
+
+2. InnerBean
+	<bean>
+		<property>
+			<bean>
+			
+3. Scopes 
+Last and very important you have learnt the five different scopes namely 
+	Singleton 
+	prototype 
+	request
+	session and 
+	globalsession 
+that apply to spring beans.
+
+
+
+note : 
+ques : Which XML element can be used to enable annotation support in spring
+ans : context:annotation-config
+
+note : each bean inside beans we tells, it create the object of perticular class.

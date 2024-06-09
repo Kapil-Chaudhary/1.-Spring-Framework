@@ -1,0 +1,163 @@
+So far you have used xml configuration to create objects and to do dependency injection. In
+this, and the next few lectures you will learn how to use the stereotype annotations from Spring to create
+objects and to inject them. We'll do it in two simple steps.
+
+
+First, we'll mark our classes with the @Component stereotype annotation from Spring.
+The stereotype annotations are used to create objects. 
+
+This is equivalent to using the bean tag in the XML.
+
+Once we do that, the second step is to use one single XML element in the configuration file called
+context:component-scan. 
+
+Using this element, we tell the Spring container which all packages it needs nto scan for classes marked with this component annotation.
+
+
+Here, we use the base-package attribute and we are telling the Spring container that it should
+scan a package called com.bharath and all its subpackages for classes marked with @Component. 
+
+Whatever package we give here, Spring container will also search that package as well as it's subpackages
+for classes marked with the @Component annotation. 
+For example, here, I have all these packages the parent and the subpackages. com has one, three, four, two, five, six as the packages and all
+these packages have classes.
+
+
+So if I use com.one as the base package, then the Spring container will scan this package com which has a class A, then it will scan one for class B and also one subpackage which are three and
+four and it'll find classes C and D as well.
+
+
+If I use com.two.five.F then it will only scan the five package.
+It doesn't have any subpackages, so it will only find F, class F.
+
+
+And if I use com as the base package, then it will scan all the subpackages. So it will find A, B, C,
+D, E, F, G.
+
+
+That is how the scanning works.
+The container by default,
+
+when we mark a class with @Component annotation, it will create an object like this.
+That is, it will use the class name for the object reference name and it uses camel case to name it, to name the reference variable. 
+So when we read the object in our test or anywhere in our application, we should use the camel case to retrieve that object from Spring.
+
+
+Last but not least, we can use the @Component annotation, ofcourse only on the classes that we create.
+We cannot use it on the inbuilt classes like string etc; are third party classes because that code is already compiled.
+
+
+We don't have access to the source code.
+So to summarize, we use the @Component scan to mark our classes and then we define a configuration in the Spring configuration, through which we tell the Spring container which all classes it needs to
+scan and create objects for. 
+
+In the next few lectures, you will see these in action.
+
+
+Example :: 
+
+1. 
+
+import org.springframework.stereotype.Component;
+@Component
+public class Instructor {
+	private int id;
+	private String name;
+....
+....
+....
+
+}
+
+
+2. 
+<context:component-scan base-package="com.bharath.spring.springcoreadvanced.stereotype.annotations" />
+
+3. 
+Instructor instructor = (Instructor) context.getBean("instructor");
+		System.out.println(instructor);
+
+
+note : 
+bidefault it take class name to object refrence in camelCase 
+	that is Instructor ( class name ) and refrence name is instructor
+
+note :
+to use any name of bean obj then we use 
+@Component("variable_name")
+example ::--->>>    @Component("inst")
+
+
+
+-------------------------------    
+		How to configure singleton, prototype scope by use of annotation
+--------------------------------
+1. singletone bidefault
+
+2. prototype
+@Component("inst")
+@Scope("prototype")
+
+
+
+
+----------------------
+		@Value annotation to inject the values
+----------------------
+
+1. inject premitive values using @Value annotation
+syntex :: @Value("")
+example ::--> @Value("java lang")
+note : annotation also override the value that we assign using annoation
+
+
+2. inject collection type values using @Value annotation
+
+we do it in 2 steps ::
+
+... assigning into xml configuration
+syntex -->   
+util:Cn id="myList"
+@Value("#{myList}") in bean class
+
+example:
+1. in bean class
+@Value("#{topics}")
+private List<String> topics;
+
+2. in config.xml 
+	<util:list list-class="java.util.LinkedList" id="topics">
+		<value>Java Web Services</value>
+		<value>Core Java</value>
+		<value>XSLD</value>
+	</util:list>
+
+
+
+3. inject object type by @Autowired 
+
+
+note summery :
+You have learnt that instead of using the XML configuration, we can use the @Component annotation
+
+to mark our java classes and Spring will automatically create the object of that particular class. To tell
+
+the Spring container about the packages to scan for these classes marked with @Component annotation in
+
+XML configuration,
+
+we use the context:component-scan and we provide the base package which the Spring container will scan for
+
+the beans marked with this particular annotation.
+
+It will create the objects, does the dependency injection etc; It will scan this package as well as all
+
+its sub packages for the classes.
+
+And when we use stereotype annotation or annotations like @Component, we also use @Scope to
+
+specify the scope of that particular bean which could be singleton, prototype, request, session etc.;
+
+And to provide values or to inject values, we use the @Value annotation. We can inject primitive types and collection
+
+types using the @Value annotation. And to inject the object types or reference types we use the 

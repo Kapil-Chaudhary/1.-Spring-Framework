@@ -1,0 +1,57 @@
+In this lecture, you will learn what constructor injection and start using it.
+
+
+Spring supports creating objects using parameterized constructs.
+
+1.
+<constructor-arg>
+	<value> b </value> ( we can either pass primitive types as value, we can pass collections using list, set etc. ) 
+<constructor-arg>
+
+2. And also you can pass reference types using the ref element. Both these elements value and ref can be used 
+as elements, as attributes and also you can use something called C schema or C namespace. This is very similar to P schema or namespace which you have used in property injection.
+
+<constructor-arg>
+	<ref bean="a" /> 
+<constructor-arg>
+
+example : 
+
+public class Employee {
+	private int id;
+	private Address address;
+	
+	
+	Employee(int id, Address address){
+		this.id = id;
+		this.address = address;
+	}
+	
+----
+--
+}	
+
+1. used as element
+
+	<bean class="com.bharath.spring.springcore.constructorinjection.Employee" name="employee" >
+		<constructor-arg>
+			<value>123</value>
+		</constructor-arg>
+		
+		<constructor-arg>
+			<ref bean="address"></ref>
+		</constructor-arg>
+	</bean>
+
+
+
+2. used as attribute
+
+	<bean class="com.bharath.spring.springcore.constructorinjection.Employee" name="employee" >
+		<constructor-arg value="123" />
+		<constructor-arg ref="address" />
+	</bean>
+
+3. using c schema namespace 
+	before using this we have to add c-schema depandency in beans
+		xmlns:c="http://www.springframework.org/schema/c"

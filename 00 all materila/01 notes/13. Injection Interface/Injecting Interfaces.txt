@@ -1,0 +1,79 @@
+So far you have been creating classes and there objects and injecting them back 
+
+In real time java applications We often create interfaces that is we always code to interfaces for abstraction.
+For example here I have an order error bo which is a class that holds all the business logic for the order
+to place an order.
+
+This orderbo is an interface and it will be implemented by a class called orderbolmpl it has is-a relationship with orderbo
+
+Similarly we have an orderDAO  which contains not the business logic but all the data access
+code JDBC hibernate etc  all that code will go into the orderDAO
+
+
+It connects to the database and does the work. Again this orderDAO is an interface and it will be implemented by orderDAOImpl 
+this orderBO depends on orderDAO or orderBOImpl will has-a relationship orderDAO 
+
+now to inject orderDAO into orderBO impel.
+We do not or we cannot create an instance of this interface.
+So we provide the implementation in our spring configuration will be providing this class details ( OrderDAOImpl ) in the been so that spring can inject it into the OrderBOimpel
+
+So the steps will remain the same.
+1. We will be creating POJIs/POJO plane Of Java interfaces and play Pf the java objects 
+2. create the configuration and finally 
+3. create the test class.
+
+
+						diagram:
+_________________________________________________________________________________
+				
+	                       has-a
+		OrderBO  --------------------->  OrderDAO
+		  ^                                 ^		
+    		  |                              	|
+		  | 						|
+		  | is-a					| is-a
+		  |						|
+		  |						|
+		OrderBOImpl				   OrderDAOImpl
+
+
+Do the first step in this lecture that is creating the interfaces and classes go to eclipse minimize everything.
+
+
+Have one of them expanded so that we can copy the configurational test right click interface.
+We should always code to interfaces package name com.bharath.SpringCoreadvance.injecting.interfaces this and the interface name should be orderbo will have the business logic method the one and only method this will have is place order and it  returns nothing.
+
+void plays order are the mighty fall. Its public abstract create a class for it right click new class. So if you right click on that interface create the class give it a name orderBOImpl click on add search for order we will select that hit. OK. Finish automatically.
+
+Eclipse will override the place. Order method for us simply do a sysout in the method sysout inside orderbo let's create the next interface which is the orderDAO right click create new interface orderDAO finish and this dao will have one single method called create order This will create the order in the database.
+
+
+Typically these methods will have parameters here I am not adding all the complexity because we just want to see how interface injection works.
+Right click new class orderDAOImpl implementation. Click on Add search for orderDAO be able select that hit OK.
+Finish and controlD to delete that to do sis out inside orderdao create order.
+save it in the next lecture will copy or the test and the configuration and will make the necessary changes. This should be in side order do you.
+
+
+
+1. using xml conf.
+
+a. implement above diagram
+b.
+	<bean
+		class="com.bharath.spring.springcoreadvanced.injecting.interfaces.OrderDAOImpl"
+		name="dao" />
+		
+	<bean
+		class="com.bharath.spring.springcoreadvanced.injecting.interfaces.OrderDAOImpl2"
+		name="dao2" />
+		
+	<bean
+		class="com.bharath.spring.springcoreadvanced.injecting.interfaces.OrderBOImpl"
+		name="bo">
+		<property name="dao" ref="dao2" />
+	</bean>
+c.
+
+
+2. using annotations and autowiring
+

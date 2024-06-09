@@ -1,0 +1,58 @@
+1657518445623	Delete element
+1657647645312	Encapsulate field 'id'
+1657647654839	Encapsulate field 'name'
+1657647772245	Delete element
+1657649326476	Delete element
+1657649770995	Delete element
+1657650674375	Delete element
+1657688989382	Delete element
+1657689100154	Encapsulate field 'name'
+1657689105343	Encapsulate field 'departments'
+1657689141279	Copy file
+1657689196629	Rename resource 'config.xml'
+1657693900618	Encapsulate field 'name'
+1657693904049	Encapsulate field 'models'
+1657693941632	Copy file
+1657694301334	Rename resource 'config.xml'
+1657694741385	Encapsulate field 'name'
+1657694746426	Encapsulate field 'products'
+1657695490357	Copy compilation unit
+1657695900905	Delete element
+1657695991378	Delete element
+1657696014380	Delete element
+1657696396593	Delete element
+1657696607331	Encapsulate field 'id'
+1657697315351	Rename type 'Languages'
+1657697360432	Rename compilation unit 'ContriesAndLanguages.java'
+1657697454218	Encapsulate field 'countryAndLangs'
+1657697567020	Copy compilation unit
+1657697584593	Copy file
+1657697632016	Rename resource 'setconfig.xml'
+1657699067797	Encapsulate field 'countryAndLangs'
+1657700259765	Encapsulate field 'scores'
+1657700310277	Copy compilation unit
+1657700320506	Copy file
+1657700337768	Rename resource 'setconfig.xml'
+1657735384034	Encapsulate field 'id'
+1657735422296	Copy file
+1657735428022	Rename resource 'setconfig.xml'
+1657735683794	Copy compilation unit
+1657737344164	Copy compilation unit
+1657737354744	Copy compilation unit
+1657737364236	Copy file
+1657772690176	Copy compilation unit
+1657772696273	Copy compilation unit
+1657772703495	Copy file
+1657773269480	Delete element
+1657780532390	Delete element
+1657780547555	Copy elements
+1657781584085	Copy elements
+1657858346250	Copy compilation units
+1657858421096	Copy elements
+1657870268154	Copy file
+1657870482439	Copy compilation unit
+1657890640755	Move file
+1657891367609	Copy file
+1657908208520	Copy package
+1657908220158	Delete element
+1657908394629	Copy elements
